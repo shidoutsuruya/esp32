@@ -1,6 +1,6 @@
 from machine import Pin
 import time
-p0=Pin(1,Pin.OUT)
+p0=Pin(13,Pin.OUT)
 while True:
     p0.value(1)
     time.sleep(3)
