@@ -29,7 +29,6 @@ def bit_width(width=12):
         adc.width(ADC.WIDTH_11BIT)
     else:
         adc.width(ADC.WIDTH_12BIT)
-    
 while True:
     print(adc.read())
     time.sleep(0.1)

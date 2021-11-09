@@ -1,4 +1,3 @@
 from machine import UART
-uart1=UART(1,baudrate=9600,tx=33,rx=32)
-uart1.write('hello')
-uart1.read(5)
+uart=UART(1,baudrate=9600,tx=1,rx=3)
+print(uart.read())
