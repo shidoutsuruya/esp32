@@ -1,7 +1,7 @@
 from machine import Pin
 import time
-Trig = Pin(13,Pin.OUT)
-Echo = Pin(12,Pin.IN)
+Trig = Pin(27,Pin.OUT)
+Echo = Pin(36,Pin.IN)
 while True:
     while(Echo.value()==0):
         Trig.value(1)

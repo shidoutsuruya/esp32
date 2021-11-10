@@ -1,3 +1,3 @@
 from machine import UART
-uart=UART(1,baudrate=9600,tx=1,rx=3)
-print(uart.read())
+uart = UART(1, 9600)                         # init with given baudrate
+uart.init(9600, bits=8, parity=None, stop=1)
