@@ -1,11 +1,9 @@
 import network
 import time
-import socket
 SSID="Nusri-Public"
 PASSWORD=""
 port=10000
 wlan=None
-listenSocket=None
 def connectWifi(ssid,passwd):
     global wlan
     wlan=network.WLAN(network.STA_IF)
