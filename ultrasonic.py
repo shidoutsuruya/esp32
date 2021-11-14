@@ -16,3 +16,4 @@ while True:
         distance=(tc*0.034)/2
         print('Distance:',distance,'cm')
     time.sleep(0.01)
+    
