@@ -1,7 +1,7 @@
 import network
 import time
-SSID="Nusri-Public"
-PASSWORD=""
+SSID="ME-LAB"
+PASSWORD="311MELAB"
 port=10000
 wlan=None
 def connectWifi(ssid,passwd):
